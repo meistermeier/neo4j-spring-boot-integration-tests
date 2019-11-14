@@ -20,19 +20,23 @@ cache:
 matrix:
   include:
     # Supported combinations
-    - name: "Current Boot combination"
+    - name: "Boot 2.1 default combination OGM 3.1 / Lovelace"
       env: 
-      - NEO4J_OGM_VERSION=3.1.14
-      - SPRING_DATA_RELEASE_TRAIN_VERSION=Lovelace-SR10
-    - name: "Next Boot combination"
+      - NEO4J_OGM_VERSION=3.1.15
+      - SPRING_DATA_RELEASE_TRAIN_VERSION=Lovelace-SR12
+    - name: "Boot 2.2 default combination OGM 3.2 / Moore"
       env: 
-      - NEO4J_OGM_VERSION=3.2.0-SNAPSHOT
-      - SPRING_DATA_RELEASE_TRAIN_VERSION=Moore-BUILD-SNAPSHOT
+      - NEO4J_OGM_VERSION=3.2.2
+      - SPRING_DATA_RELEASE_TRAIN_VERSION=Moore-SR1
     # Would be nice to have it
-    - name: "Next Neo4j-OGM version with current SDN"
+    - name: "Boot 2.1 OGM 3.2 / Lovelace"
       env: 
-      - NEO4J_OGM_VERSION=3.2.0-SNAPSHOT
-      - SPRING_DATA_RELEASE_TRAIN_VERSION=Lovelace-SR10
+      - NEO4J_OGM_VERSION=3.2.2
+      - SPRING_DATA_RELEASE_TRAIN_VERSION=Lovelace-SR12
+    - name: "Boot 2.2 OGM 3.1 / Moore"
+      env:
+      - NEO4J_OGM_VERSION=3.1.15
+      - SPRING_DATA_RELEASE_TRAIN_VERSION=Moore-SR1
 
 # Clone latest neo4j-ogm, assume it builds and install local snapshot
 before_script:
@@ -41,4 +45,5 @@ before_script:
 
 # Execute it
 script:
-  - "./mvnw -Dneo4j-ogm.version=${NEO4J_OGM_VERSION} -Dspring-data-releasetrain.version=${SPRING_DATA_RELEASE_TRAIN_VERSION} clean verify"
+  - "./mvnw -f spring-boot-2.1/pom.xml -Dneo4j-ogm.version=${NEO4J_OGM_VERSION} -Dspring-data-releasetrain.version=${SPRING_DATA_RELEASE_TRAIN_VERSION} clean verify"
+  - "./mvnw -f spring-boot-2.2/pom.xml -Dneo4j-ogm.version=${NEO4J_OGM_VERSION} -Dspring-data-releasetrain.version=${SPRING_DATA_RELEASE_TRAIN_VERSION} clean verify"

@@ -1,0 +1,13 @@
+#Thu Nov 14 14:49:04 CET 2019
+configuration*?=26B225459FD65C7AF6ADAE36132CD03F5030B61F
+/Users/gerritmeier/projects/neo4j/neo4j-spring-boot-integration-tests/spring-boot-2.2/src/main/java/org/neo4j/neo4jspringbootintegrationtests/Application.java=1573736603564
+/Users/gerritmeier/projects/neo4j/neo4j-spring-boot-integration-tests/spring-boot-2.2/src/main/java/org/neo4j/neo4jspringbootintegrationtests/domain/RelatedThing.java=1573736603565
+module-resource*?\:file\:/Users/gerritmeier/projects/neo4j/neo4j-spring-boot-integration-tests/spring-boot-2.2/target/checkstyle-header.txt=A93D22438EE707819E6ED2D13BFD5561A0F03B22
+/Users/gerritmeier/projects/neo4j/neo4j-spring-boot-integration-tests/spring-boot-2.2/src/main/java/org/neo4j/neo4jspringbootintegrationtests/domain/ClosedThingProjection.java=1573736603564
+/Users/gerritmeier/projects/neo4j/neo4j-spring-boot-integration-tests/spring-boot-2.2/src/main/java/org/neo4j/neo4jspringbootintegrationtests/domain/ThingEntity.java=1573736603565
+/Users/gerritmeier/projects/neo4j/neo4j-spring-boot-integration-tests/spring-boot-2.2/src/main/java/org/neo4j/neo4jspringbootintegrationtests/domain/OpenThingProjection.java=1573736603564
+/Users/gerritmeier/projects/neo4j/neo4j-spring-boot-integration-tests/spring-boot-2.2/src/main/java/org/neo4j/neo4jspringbootintegrationtests/domain/ThingRepository.java=1573736603565
+/Users/gerritmeier/projects/neo4j/neo4j-spring-boot-integration-tests/spring-boot-2.2/src/test/java/org/neo4j/neo4jspringbootintegrationtests/domain/ThingRepositoryTest.java=1573736603566
+/Users/gerritmeier/projects/neo4j/neo4j-spring-boot-integration-tests/spring-boot-2.2/src/main/resources/application.properties=1573736603565
+/Users/gerritmeier/projects/neo4j/neo4j-spring-boot-integration-tests/spring-boot-2.2/src/main/java/org/neo4j/neo4jspringbootintegrationtests/domain/ThingWithCoordinates.java=1573736603565
+/Users/gerritmeier/projects/neo4j/neo4j-spring-boot-integration-tests/spring-boot-2.2/src/main/java/org/neo4j/neo4jspringbootintegrationtests/domain/ThingResult.java=1573736603565

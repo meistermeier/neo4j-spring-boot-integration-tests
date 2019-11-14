@@ -1,0 +1,8 @@
+/Users/gerritmeier/projects/neo4j/neo4j-spring-boot-integration-tests/spring-boot-2.2/src/main/java/org/neo4j/neo4jspringbootintegrationtests/Application.java
+/Users/gerritmeier/projects/neo4j/neo4j-spring-boot-integration-tests/spring-boot-2.2/src/main/java/org/neo4j/neo4jspringbootintegrationtests/domain/ClosedThingProjection.java
+/Users/gerritmeier/projects/neo4j/neo4j-spring-boot-integration-tests/spring-boot-2.2/src/main/java/org/neo4j/neo4jspringbootintegrationtests/domain/RelatedThing.java
+/Users/gerritmeier/projects/neo4j/neo4j-spring-boot-integration-tests/spring-boot-2.2/src/main/java/org/neo4j/neo4jspringbootintegrationtests/domain/ThingRepository.java
+/Users/gerritmeier/projects/neo4j/neo4j-spring-boot-integration-tests/spring-boot-2.2/src/main/java/org/neo4j/neo4jspringbootintegrationtests/domain/OpenThingProjection.java
+/Users/gerritmeier/projects/neo4j/neo4j-spring-boot-integration-tests/spring-boot-2.2/src/main/java/org/neo4j/neo4jspringbootintegrationtests/domain/ThingEntity.java
+/Users/gerritmeier/projects/neo4j/neo4j-spring-boot-integration-tests/spring-boot-2.2/src/main/java/org/neo4j/neo4jspringbootintegrationtests/domain/ThingWithCoordinates.java
+/Users/gerritmeier/projects/neo4j/neo4j-spring-boot-integration-tests/spring-boot-2.2/src/main/java/org/neo4j/neo4jspringbootintegrationtests/domain/ThingResult.java
