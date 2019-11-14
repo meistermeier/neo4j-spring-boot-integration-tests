@@ -43,9 +43,9 @@ matrix:
       - SPRING_DATA_RELEASE_TRAIN_VERSION=Moore-SR1
 
 # Clone latest neo4j-ogm, assume it builds and install local snapshot
-before_script:
-  - git clone https://github.com/neo4j/neo4j-ogm;
-  - ./mvnw -f neo4j-ogm/pom.xml -Djacoco.skip=true -Dmaven.javadoc.skip=true -Dcheckstyle.skip -DskipTests=true clean install;
+# before_script:
+#  - git clone https://github.com/neo4j/neo4j-ogm;
+#  - ./mvnw -f neo4j-ogm/pom.xml -Djacoco.skip=true -Dmaven.javadoc.skip=true -Dcheckstyle.skip -DskipTests=true clean install;
 
 # Execute it
 script:
