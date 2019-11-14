@@ -1,8 +1,0 @@
-org/neo4j/neo4jspringbootintegrationtests/domain/OpenThingProjection.class
-org/neo4j/neo4jspringbootintegrationtests/domain/ThingEntity.class
-org/neo4j/neo4jspringbootintegrationtests/domain/RelatedThing.class
-org/neo4j/neo4jspringbootintegrationtests/domain/ThingRepository.class
-org/neo4j/neo4jspringbootintegrationtests/Application.class
-org/neo4j/neo4jspringbootintegrationtests/domain/ThingResult.class
-org/neo4j/neo4jspringbootintegrationtests/domain/ThingWithCoordinates.class
-org/neo4j/neo4jspringbootintegrationtests/domain/ClosedThingProjection.class
