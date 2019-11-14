@@ -50,4 +50,4 @@ install: echo "Skipping install step because there is no maven project in the ro
 
 # Execute it
 script:
-  - "./mvnw -f spring-boot-${SPRING_BOOT_VERSION}/pom.xml -Dneo4j-ogm.version=${NEO4J_OGM_VERSION} -Dspring-data-releasetrain.version=${SPRING_DATA_RELEASE_TRAIN_VERSION} clean verify"
+  - "./mvnw --no-transfer-progress -f spring-boot-${SPRING_BOOT_VERSION}/pom.xml -Dneo4j-ogm.version=${NEO4J_OGM_VERSION} -Dspring-data-releasetrain.version=${SPRING_DATA_RELEASE_TRAIN_VERSION} clean verify"
