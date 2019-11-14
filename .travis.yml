@@ -42,6 +42,7 @@ matrix:
       - NEO4J_OGM_VERSION=3.1.15
       - SPRING_DATA_RELEASE_TRAIN_VERSION=Moore-SR1
 
+install: echo "Skipping install step because there is no maven project in the root dir."
 # Clone latest neo4j-ogm, assume it builds and install local snapshot
 # before_script:
 #  - git clone https://github.com/neo4j/neo4j-ogm;
