@@ -1,5 +1,7 @@
 /target/
 !.mvn/wrapper/maven-wrapper.jar
+spring-boot-2.1/target
+spring-boot-2.2/target
 
 ### STS ###
 .apt_generated
