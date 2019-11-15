@@ -1,6 +1,6 @@
 = Neo4j-OGM integration tests with various SDN and Spring Boot versions
 
-image:https://travis-ci.com/meistermeier/neo4j-spring-boot-integration-tests.svg?branch=master["Build Status", link="https://travis-ci.com/michael-simons/neo4j-spring-boot-integration-tests"]
+image:https://travis-ci.com/meistermeier/neo4j-spring-boot-integration-tests.svg?branch=master["Build Status", link="https://travis-ci.com/meistermeier/neo4j-spring-boot-integration-tests"]
 image:https://img.shields.io/badge/License-Apache%202.0-green.svg[link="http://www.apache.org/licenses/LICENSE-2.0"]
 
 == What is this?
@@ -9,4 +9,14 @@ Just some very simple smoke tests for current, upcoming and also unsupported com
 
 == What is tested?
 
+[options=header]
+|===
+| Spring Boot version | Neo4j-OGM version | Spring Data release train | note
+| Spring Boot 2.1 | Neo4j-OGM 3.1 | Lovelace | default combination
+| Spring Boot 2.2 | Neo4j-OGM 3.2 | Moore | default combination 
+| Spring Boot 2.1 | Neo4j-OGM 3.2 | Lovelace | older Spring Boot/Data combination with newer Neo4j-OGM
+| Spring Boot 2.2 | Neo4j-OGM 3.1 | Moore | newer Spring Boot/Data combination with older Neo4j-OGM
+|===
+
+NOTE: Please be aware that Spring Boot and Spring Data versions cannot have different combinations.
 
