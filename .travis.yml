@@ -38,7 +38,7 @@ matrix:
       - SPRING_DATA_RELEASE_TRAIN_VERSION=Lovelace-SR12
     - name: "Boot 2.2 OGM 3.1 / Moore"
       env:
-      - SPRING_BOOT_VERSION=2.2
+      - SPRING_BOOT_VERSION=2.2-no-new-types
       - NEO4J_OGM_VERSION=3.1.15
       - SPRING_DATA_RELEASE_TRAIN_VERSION=Moore-SR1
 
